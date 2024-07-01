@@ -27,10 +27,6 @@ security:
             pattern: ^/api/user/create
             stateless: true
             security: false
-        doc:
-            pattern: ^/api/doc
-            stateless: true
-            security: false
 
         api:
             pattern: ^/api
