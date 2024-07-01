@@ -1,0 +1,22 @@
+# Recipe Controllers
+recipe:
+    resource: '../src/Controller/Recipe/'
+    type: attribute
+    prefix: /api/recipes
+
+# Ingredient Controllers
+ingredient:
+    resource: '../src/Controller/Ingredient/'
+    type: attribute
+    prefix: /api/ingredients
+
+# User Controllers
+user:
+    resource: '../src/Controller/User/'
+    type: attribute
+    prefix: /api/user
+
+api_login_check:
+    path: /api/user/login
+    methods: [POST]
+
